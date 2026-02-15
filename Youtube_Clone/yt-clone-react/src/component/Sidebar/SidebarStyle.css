@@ -1,0 +1,50 @@
+#side {
+    overflow: auto;
+    min-height: 100%;
+    padding: 12px;
+}
+
+
+.-side-pmr ,
+.-side-sec{
+    display: grid;
+    grid-auto-rows: 40px ;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.-side-pmr .-item,
+.-side-sec .-item {
+    display: grid;
+    align-items: center;
+    height: 100%;
+    background-color: #fff;
+    padding: 0 12px;
+    border-radius: 10px;
+}
+
+.-side-pmr .-item {
+    grid-template-columns: 48px auto;
+}
+
+.-side-sec .-item {
+    grid-template-columns: 48px auto 16px;
+
+}
+
+.-side-pmr .-item:hover,
+.-side-sec .-item:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.-side-pmr .-text,
+.-side-sec .-text{
+    font-size: 1.4rem;
+    line-height: 10px;
+}
+
+.-side-sec .-item .-icon img {
+    width: 32px;
+    border-radius: 10em;
+}

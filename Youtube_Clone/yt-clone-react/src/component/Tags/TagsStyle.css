@@ -1,0 +1,33 @@
+#content #tags {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    padding: 0 24px;
+    gap: 24px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-bottom: 24px;
+}
+
+#content #tags .-item {
+    display: flex;
+    height: 32px;
+    padding: 0 12px;
+    background-color: #f2f2f2;
+    color: #000;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 1.4rem;
+}
+
+#content #tags .-item:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+#content #tags .-item.-active{
+    background-color: #000 !important;
+    color: #fff;
+}
