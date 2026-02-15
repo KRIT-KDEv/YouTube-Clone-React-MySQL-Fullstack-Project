@@ -1,37 +1,36 @@
-# YouTube Clone - Full Stack Web Application
+# YouTube Clone - Full Stack Video Platform
 
-โปรเจกต์จำลองการทำงานของ YouTube พัฒนาด้วย MERN Stack (เปลี่ยน MongoDB เป็น MySQL) เพื่อศึกษาการจัดการข้อมูลวิดีโอ การดึงข้อมูลผ่าน API และการจัดการ State ฝั่ง Frontend
+A comprehensive YouTube clone application designed to showcase full-stack development capabilities. This project features a React-based frontend and a Node.js/Express backend, utilizing a MySQL database for robust data management.
 
-## 🌟 Features
+## 🚀 Project Overview
 
-- **Video Streaming:** รับชมวิดีโอผ่านโปรแกรมเล่นวิดีโอ
-- **Search Functionality:** ค้นหาวิดีโอที่ต้องการ
-- **Video Upload:** ระบบอัปโหลดวิดีโอ (จำลอง/จริง ตามการพัฒนาของคุณ)
-- **Responsive Design:** ใช้งานได้ทั้งบน Desktop และ Mobile
-- **Database Management:** จัดการข้อมูลผู้ใช้และวิดีโอด้วย MySQL
+The goal of this project is to replicate core YouTube functionalities, focusing on dynamic content delivery, responsive UI/UX, and optimized database interactions. It demonstrates proficiency in the "MERN" logic while utilizing a relational database (MySQL) for structured data storage.
+
+
 
 ## 🛠 Tech Stack
 
-**Frontend:**
-- React.js
-- Tailwind CSS (หรือ CSS Framework ที่คุณใช้)
-- Axios (สำหรับ Fetching API)
-- Lucide React / FontAwesome (สำหรับ Icons)
+### Frontend
+- **React.js** (Vite)
+- **Tailwind CSS** (Modern Styling)
+- **Axios** (API Communication)
+- **React Router** (Navigation)
 
-**Backend:**
-- Node.js
-- Express.js
-- MySQL (Database)
-- Sequelize หรือ `mysql2` (Database Driver)
+### Backend
+- **Node.js** & **Express.js**
+- **MySQL** (Relational Database)
+- **CORS** (Security)
+- **Dotenv** (Environment Configuration)
 
 ## 📂 Project Structure
 
+This project uses a **Monorepo** structure for easier management and deployment:
+
 ```text
 youtube-clone/
-├── frontend/        # React Application
-└── backend/         # Node.js & Express API
+├── frontend/           # React Client-side
+├── backend/            # Node.js & Express API
+└── README.md           # Documentation (Root)
 
-**Clone the repo**
-   ```bash
-git clone [https://github.com/KRIT-KDEv/youtube-clone.git](https://github.com/KRIT-KDEv/youtube-clone.git)
-cd youtube-clone
+
+<img width="1916" height="964" alt="Image" src="https://github.com/user-attachments/assets/f0e58807-7bfb-4291-85d5-1861fc3d9dbc" />
