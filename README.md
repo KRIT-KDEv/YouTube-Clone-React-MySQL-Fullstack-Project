@@ -22,6 +22,10 @@ The goal of this project is to replicate core YouTube functionalities, focusing 
 - **CORS** (Security)
 - **Dotenv** (Environment Configuration)
 
+
+<img width="1916" height="964" alt="Image" src="https://github.com/user-attachments/assets/f0e58807-7bfb-4291-85d5-1861fc3d9dbc" />
+
+
 ## 📂 Project Structure
 
 This project uses a **Monorepo** structure for easier management and deployment:
@@ -32,5 +36,3 @@ youtube-clone/
 ├── backend/            # Node.js & Express API
 └── README.md           # Documentation (Root)
 
-
-<img width="1916" height="964" alt="Image" src="https://github.com/user-attachments/assets/f0e58807-7bfb-4291-85d5-1861fc3d9dbc" />
